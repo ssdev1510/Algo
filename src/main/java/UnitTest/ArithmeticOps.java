@@ -5,17 +5,29 @@ package UnitTest;
  */
 public class ArithmeticOps {
 
-	// This function adds two numbers
+	/*
+	 *  This function adds two numbers
+	 *  @Param > Two Integer values
+	 *  @Return > Addition of both the integer value
+	 */
 	public int add(int x, int y) {
 		return x + y;
 	}
 
-	// This function subtracts two numbers
+	/*
+	 *  This function subtracts two numbers
+	 *  @Param > Two Integer values
+	 *  @Return > Subtraction of integer value
+	 */
 	public int subtract(int x, int y) {
 		return x - y;
 	}
 
-	// This function multiplies two numbers
+	/*
+	 *  This function multiplies two numbers
+	 *  @Param > Two Integer values
+	 *  @Return > Multiplication of both the integer value
+	 */
 	public int multiply(int x, int y) {
 		int result = 0;
 		int num1 = verifyNegative(x);
@@ -29,7 +41,10 @@ public class ArithmeticOps {
 		}
 	}
 
-	// This function divides two numbers
+	/* This function divides two numbers
+	 *  @Param > Two Integer values- here x is dividend and y is divisor
+	 *  @Return > Division result
+	 */
 	public int divide(int x, int y) {
 		int result = 0;
 		if (y == 0) {
@@ -45,7 +60,10 @@ public class ArithmeticOps {
 		} else { return swtichNegateNumber(result); }
 	}
 
-	//This method check if number is negative.
+	/*
+	 * This method check if number is negative.
+	 * @Return > this will check if the input value is negative or not.
+	 */
 	private int verifyNegative(int value) {
 		if (value < 0) {
 			return swtichNegateNumber(value);
@@ -54,7 +72,9 @@ public class ArithmeticOps {
 		}
 	}
 
-	//This method convert negative number to positive and vice versa.
+	/*This method convert negative number to positive and vice versa.
+	 * @Return> return the negative value if input positive value and vice versa.
+	 */
 	public int swtichNegateNumber(int value) {
 		int result = 0;
 		int foo = value < 0 ? 1 : -1;

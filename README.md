@@ -37,7 +37,7 @@ Arithmetic Operation Unit Testing.
 
 ## **Reports**:
 
-**1) Allure Report**
+**1) TestNg Report**
 
 -Test Result view
 
