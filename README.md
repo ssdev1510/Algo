@@ -20,8 +20,8 @@ Arithmetic Operation Unit Testing.
 ## **Steps to run at your system:**
 **Prerequisite:** Maven, Java, Git installation..
 
-- Run "git clone <>" to Clone the repository.
-- Run "cd <>" to Go inside directory.
+- Run "git clone <https://github.com/ssdev1510/Arithmetic_UnitTest.git>" to Clone the repository.
+- Run "cd <Arithmetic_UnitTest>" to Go inside directory.
 - Run "mvn clean"
 - Run "mvn test"
 - Check the test result report as mentioned in below section.
